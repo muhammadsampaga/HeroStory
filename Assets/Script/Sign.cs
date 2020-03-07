@@ -5,10 +5,14 @@ using UnityEngine.UI;
 
 public class Sign : MonoBehaviour
 {
+    public QuestItem quest;
+
     public GameObject DialogBox;
     public Text DialogText;
     public string dialog;
     public bool playerInRange;
+
+    public PlayerQuest playerQuest;
 
     // Start is called before the first frame update
     void Start()
@@ -19,24 +23,47 @@ public class Sign : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Z) && playerInRange)
+        if (Input.GetKeyUp(KeyCode.Z) && playerInRange)
         {
             if (DialogBox.activeInHierarchy)
             {
                 DialogBox.SetActive(false);
             }else
             {
+
                 DialogBox.SetActive(true);
-                DialogText.text = dialog;
+                DialogText.text = quest.missionDescription;
             }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Y) && playerInRange)
+        {
+            DialogBox.SetActive(false);
+            playerQuest.quest = quest;
+            playerQuest.currentQuest = 0;
+            playerQuest.questControlUI.SetText(quest.missionDescription);
         }
     }
 
-        private void OnTriggerEnter2D(Collider2D other)
+    public void ShowSign(string text)
+    {
+        if (DialogBox.activeInHierarchy)
+        {
+            DialogBox.SetActive(false);
+        }
+        else
+        {
+            DialogBox.SetActive(true);
+            DialogText.text = text;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             playerInRange = true;
+            playerQuest = other.GetComponent<PlayerQuest>();
         }
     }
         private void OnTriggerExit2D(Collider2D other)
@@ -47,4 +74,12 @@ public class Sign : MonoBehaviour
     }
     }
 
+}
+
+[System.Serializable]
+public struct QuestItem
+{
+    public string name;
+    public int quantity;
+    public string missionDescription;
 }
