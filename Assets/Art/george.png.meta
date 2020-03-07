@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: 6b77c59aa177fed49aa877ec5478e14e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1212656191580834748
+    second: george_0
+  - first:
+      213: -446080272761505808
+    second: george_1
+  - first:
+      213: 7364557105161655394
+    second: george_2
+  - first:
+      213: 2834835260839429080
+    second: george_3
+  - first:
+      213: -4176668720435019896
+    second: george_4
+  - first:
+      213: -3507609111476023911
+    second: george_5
+  - first:
+      213: 217811228207917067
+    second: george_6
+  - first:
+      213: -1580005331218028238
+    second: george_7
+  - first:
+      213: -3613987320800232396
+    second: george_8
+  - first:
+      213: 7995988539013619322
+    second: george_9
+  - first:
+      213: -4672802000885893232
+    second: george_10
+  - first:
+      213: 5024841952986704283
+    second: george_11
+  - first:
+      213: -5947782098575674738
+    second: george_12
+  - first:
+      213: 5048597124267302775
+    second: george_13
+  - first:
+      213: 7595347947741795711
+    second: george_14
+  - first:
+      213: 7374616585114685731
+    second: george_15
+  - first:
+      213: -2116996728477362737
+    second: george_16
+  - first:
+      213: 1263527868020020351
+    second: george_17
+  - first:
+      213: -6487906014394655265
+    second: george_18
+  - first:
+      213: -6121701659498938094
+    second: george_19
+  - first:
+      213: 6958773594563326818
+    second: george_20
+  - first:
+      213: 6395706609286655022
+    second: george_21
+  - first:
+      213: -2468065116583948277
+    second: george_22
+  - first:
+      213: -9040219384338930996
+    second: george_23
+  - first:
+      213: 211890212312832481
+    second: george_24
+  - first:
+      213: 3085930496140969564
+    second: george_25
+  - first:
+      213: 2184397797466028365
+    second: george_26
+  - first:
+      213: 8524562927069687156
+    second: george_27
+  - first:
+      213: -331320263953673706
+    second: george_28
+  - first:
+      213: 7703383466445289505
+    second: george_29
+  - first:
+      213: 5554511326120250493
+    second: george_30
+  - first:
+      213: -4309764938522866369
+    second: george_31
+  - first:
+      213: -3255908045462657005
+    second: george_32
+  - first:
+      213: 878149505017089193
+    second: george_33
+  - first:
+      213: -7431526130109036083
+    second: george_34
+  - first:
+      213: 7420237684110276270
+    second: george_35
+  - first:
+      213: 8863380192871949882
+    second: george_36
+  - first:
+      213: 4390784991765737496
+    second: george_37
+  - first:
+      213: -5218998322398125979
+    second: george_38
+  - first:
+      213: 5487572664781299824
+    second: george_39
+  - first:
+      213: -8271180305002263715
+    second: george_40
+  - first:
+      213: -1335495341705390948
+    second: george_41
+  - first:
+      213: -6994734430712392161
+    second: george_42
+  - first:
+      213: -3933531293342882904
+    second: george_43
+  - first:
+      213: -5852411391294179290
+    second: george_44
+  - first:
+      213: 4427869128854004927
+    second: george_45
+  - first:
+      213: -6454097071694051024
+    second: george_46
+  - first:
+      213: 7621767061646831076
+    second: george_47
+  - first:
+      213: 5237061343414164358
+    second: george_48
+  - first:
+      213: -4256008506709404007
+    second: george_49
+  - first:
+      213: -8252197730050432353
+    second: george_50
+  - first:
+      213: -1531536021079821357
+    second: george_51
+  - first:
+      213: -7939574922598863239
+    second: george_52
+  - first:
+      213: 6680061583184564292
+    second: george_53
+  - first:
+      213: 1790451073600597354
+    second: george_54
+  - first:
+      213: 5177131753686933114
+    second: george_55
+  - first:
+      213: 1151931322403626291
+    second: george_56
+  - first:
+      213: 5298248132876904151
+    second: george_57
+  - first:
+      213: 3701885561726138788
+    second: george_58
+  - first:
+      213: -2106364648404087638
+    second: george_59
+  - first:
+      213: 2163974211103420366
+    second: george_60
+  - first:
+      213: -7369536105530511167
+    second: george_61
+  - first:
+      213: 4248865723878234492
+    second: george_62
+  - first:
+      213: -6933158722720499333
+    second: george_63
+  - first:
+      213: -8642981639869577116
+    second: george_64
+  - first:
+      213: 8679916900600970598
+    second: george_65
+  - first:
+      213: -5330206770488870553
+    second: george_66
+  - first:
+      213: -5297889980901843595
+    second: george_67
+  - first:
+      213: -7119529819318396163
+    second: george_68
+  - first:
+      213: -2409098733281847477
+    second: george_69
+  - first:
+      213: 6038282168677791720
+    second: george_70
+  - first:
+      213: -3798806138161540819
+    second: george_71
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: george_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 150
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc2134b4d860194db467043f220ee75
+      internalID: 1212656191580834748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 149
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89926f2dcb022364b984aed4c832f9c1
+      internalID: -446080272761505808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 150
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3c02dc030ead243b793728f10e1011
+      internalID: 7364557105161655394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_3
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 149
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797c8cadba7120747b2a2257a7bedf4e
+      internalID: 2834835260839429080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 101
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd9b3ebf7ea1fb4a8bc2a3a8650b6eb
+      internalID: -4176668720435019896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_5
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 101
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ba9e016a1f0764595d4e00d8a48dee
+      internalID: -3507609111476023911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_6
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 101
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9160dafa015c4024a91f2414b839269c
+      internalID: 217811228207917067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 101
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d821d160e738c0d46b0ad1d020b5d953
+      internalID: -1580005331218028238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 54
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6089abf270292274999269e6f250de23
+      internalID: -3613987320800232396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 53
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9db07d5afb7534bb4b5536553475e3
+      internalID: 7995988539013619322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_10
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 54
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8ab7c13cfd8584eb166668d4f21960
+      internalID: -4672802000885893232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_11
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 53
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcb80e3fa701fc4b9269a07818678c0
+      internalID: 5024841952986704283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 5
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab99c8deb4618964c8b49d320f795d68
+      internalID: -5947782098575674738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 5
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38611ff7894d8d3479ab388b9f295b71
+      internalID: 5048597124267302775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_14
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 5
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcfeb508db25384dae2e9c2e57d3e9c
+      internalID: 7595347947741795711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: george_15
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 5
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee28183f4171e4140a53fdcd81319965
+      internalID: 7374616585114685731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
