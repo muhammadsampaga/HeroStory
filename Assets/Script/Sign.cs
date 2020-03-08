@@ -9,10 +9,12 @@ public class Sign : MonoBehaviour
 
     public GameObject DialogBox;
     public Text DialogText;
+    public Text Quantity;
     public string dialog;
     public bool playerInRange;
 
     public PlayerQuest playerQuest;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -39,9 +41,11 @@ public class Sign : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Y) && playerInRange)
         {
             DialogBox.SetActive(false);
+            playerQuest.questControlUI.gameObject.SetActive(true);
             playerQuest.quest = quest;
             playerQuest.currentQuest = 0;
             playerQuest.questControlUI.SetText(quest.missionDescription);
+            playerQuest.questControlUI.setQty(0, quest.quantity);
         }
     }
 
