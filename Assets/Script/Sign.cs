@@ -8,12 +8,14 @@ public class Sign : MonoBehaviour
     public QuestItem quest;
 
     public GameObject DialogBox;
+    public GameObject EndMission;
     public Text DialogText;
-    public Text Quantity;
     public string dialog;
     public bool playerInRange;
+   
 
     public PlayerQuest playerQuest;
+    
     
 
     // Start is called before the first frame update
@@ -30,7 +32,8 @@ public class Sign : MonoBehaviour
             if (DialogBox.activeInHierarchy)
             {
                 DialogBox.SetActive(false);
-            }else
+            }
+            else
             {
 
                 DialogBox.SetActive(true);
@@ -40,16 +43,44 @@ public class Sign : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Y) && playerInRange)
         {
-            DialogBox.SetActive(false);
-            playerQuest.questControlUI.gameObject.SetActive(true);
-            playerQuest.quest = quest;
-            playerQuest.currentQuest = 0;
-            playerQuest.questControlUI.SetText(quest.missionDescription);
-            playerQuest.questControlUI.setQty(0, quest.quantity);
+            if (playerQuest.currentQuest < quest.quantity)
+            {
+
+                DialogBox.SetActive(false);
+                playerQuest.questControlUI.gameObject.SetActive(true);
+                playerQuest.quest = quest;
+                playerQuest.currentQuest = 0;
+                playerQuest.questControlUI.SetText(quest.missionDescription);
+                playerQuest.questControlUI.setQty(0, quest.quantity);
+
+
+            }
         }
+
+        if (Input.GetKeyDown(KeyCode.Y) && playerInRange)
+        {
+ 
+                if (playerQuest.currentQuest >= quest.quantity)
+                {
+                    playerQuest.ceklis.SetActive(false);
+                    playerQuest.questControlUI.gameObject.SetActive(false);
+                    EndMission.SetActive(true);
+
+                }
+            
+
+        }
+        if (Input.GetKeyUp(KeyCode.U) && playerInRange) { 
+            if (EndMission.activeInHierarchy)
+        {
+            EndMission.SetActive(false);
+        }
+            }
     }
 
-    public void ShowSign(string text)
+  
+
+public void ShowSign(string text)
     {
         if (DialogBox.activeInHierarchy)
         {

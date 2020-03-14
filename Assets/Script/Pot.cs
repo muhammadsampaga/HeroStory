@@ -14,7 +14,7 @@ public class Pot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+     
     }
 
     public void Smash(){

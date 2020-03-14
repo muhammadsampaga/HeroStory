@@ -10,6 +10,7 @@ public class PlayerQuest : MonoBehaviour
 
     private Item item;
     private bool onItem;
+    public GameObject ceklis;
 
     private void Start()
     {
@@ -28,9 +29,28 @@ public class PlayerQuest : MonoBehaviour
                     currentQuest++;
                     questControlUI.setQty(currentQuest, quest.quantity);
                 }
-                
+                if (currentQuest >= quest.quantity)
+                {
+                    ceklis.SetActive(true);
+                    //questControlUI.gameObject.SetActive(false);
+                    
+                }
+
+      
+
             }
         }
+     
+
+        /*if (onItem && Input.GetKeyUp(KeyCode.Y))
+        {
+            if (currentQuest >= quest.quantity)
+            {
+                ceklis.SetActive(false);
+                questControlUI.gameObject.SetActive(false);
+
+            }
+        }*/
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
